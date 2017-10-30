@@ -32,4 +32,6 @@ body {
 	backface-visibility: hidden;
 }
 
-
+ul {
+	list-style-type: none;
+}
