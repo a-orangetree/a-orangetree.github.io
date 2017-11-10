@@ -37,6 +37,10 @@ ul {
 	list-style-type: none;
 }
 
+h1 {
+	text-shadow: 1px 1px 1px #ccc;
+}
+
 h1, h2, h3 {
 	font-family: 'Corben', Georgia, Times, serif;
 }
