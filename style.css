@@ -36,3 +36,10 @@ ul {
 	list-style-type: none;
 }
 
+h1, h2, h3 {
+	font-family: 'Corben', Georgia, Times, serif;
+}
+
+p, div {
+	font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
