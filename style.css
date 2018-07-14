@@ -66,6 +66,6 @@ p, div {
 	font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 
-p {
+p, li {
 	font-size: 20px;
 }
