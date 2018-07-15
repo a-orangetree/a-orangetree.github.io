@@ -3,7 +3,7 @@
 
 # TEAM
 
-   Author: Adrian Lange 
+   Author: Adrian Naranjo 
 
 # THANKS
 
