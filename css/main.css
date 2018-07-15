@@ -893,7 +893,7 @@ div.backToTop, #content-resume div.backToTop {
 
 .underline {
   text-decoration: underline;
-  color: #3498DB; }
+  color: #000000; }
 
 .italic {
   font-style: italic; }
@@ -926,7 +926,7 @@ div.backToTop, #content-resume div.backToTop {
   margin-top: 30px; }
 
 .blue-text {
-  color: #3498DB; }
+  color: #000000; }
 
 .columbus {
   margin-right: 3px; }

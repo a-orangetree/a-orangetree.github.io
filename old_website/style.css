@@ -1,0 +1,71 @@
+.navbar {
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+body {
+	font-family: sans-serif;
+	text-align: align;
+	background: /img/dust_scratches/dust_scratches.png;
+	margin: 20px;
+}
+
+.Content {
+	padding: 20px;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h1, h2 {
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+h1, h2, h3 {
+	font-family: 'Corben', Georgia, Times, serif;
+}
+
+p, div {
+	font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+p, li, td {
+	font-size: 18px;
+}
