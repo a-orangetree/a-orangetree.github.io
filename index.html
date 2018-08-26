@@ -26,7 +26,7 @@
             </div>
             <div class="row">
                 <div class="twelve columns">
-                    <h5 class="text-center">Engineer. Philosopher. Master of Unicorns.</h5>
+                    <h5 class="text-center">Engineer.  Philosopher.  Master of Unicorns.</h5>
                 </div>
             </div>
         </div>
@@ -95,16 +95,17 @@
                       The good news is I have a philosophy degree. The bad news is I have a philosophy degree.
                     </p>
                     <p class="justify">
-                      <strong>Who am I?</strong> I'm experienced, adaptive, and motivated. I spent most of my teens working a scuba shop
-                      thinking I'd eventually get into the hard sciences. Instead, I went to college and read Aristotle and Thomas Hobbes.
-                      Now I've lived around the US, published work in philosophy, completed 4 separate degrees (not all are listed below),
-                      and can speak/read/write 2 languages and read/write a 3rd. Combine all that with the fact that after my undergraduate
-                      I became a consultant working at the intersection of healthcare and technology and... you've got me.
+                      <strong>Who am I?</strong> I'm experienced, adaptive, and motivated. I spent most of my teens working at a scuba shop
+                      thinking I'd eventually get into the hard sciences. Instead, when I got to college and ended up reading Thomas Hobbes.
+                      Since then I've lived around the US, published work in philosophy, completed 4 separate degrees (well, the 4th will be
+                      compeleted this December and not all are listed below), and can speak/read/write 2 languages and read/write a 3rd. Combine all
+                       that with the fact that after my undergrad I became a consultant working at the intersection of healthcare and technology
+                       and... you've got me.
                     </p>
                     <p class="justify">
-                       <strong>What motivates me?</strong> I'm a philosopher at heart. That means I'm very motivated to
-                       create structure where previously it didn't exist. That's why I love learning, reading,
-                       and writing. It turns all that raw worldly input into something more human, more meaningful.
+                       <strong>What motivates me?</strong> I'm a philosopher at heart and very motivated to
+                       create structure where previously it didn't exist. That's why I love learning, building, reading,
+                       writing... It turns all that raw worldly input we encounter into something more human, more meaningful.
                     </p>
                     <p class="justify">
                       <strong>What am I doing now?</strong> I'm a graduate student studying computer science at
@@ -138,12 +139,13 @@
             </div>
             <div class="row">
               <p class="justify">
-                This started as a personal project in an attempt to make more money with less risk. In other words, I wanted to find loans
+                This started as a personal project attempting to find loans
                 with high rates of return which, while classified as risky by Prosper.com, were in fact likely to result in profit.
-                Unfortunately, I came to find that the data provided by Prosper.com did not contain a unique identifier to connect their loan data
-                with their data on the individuals who were asking for the loan. So, I only used loan characteristics.
-                To make matters more difficult, most of the loan characteristics were highly correlated. In spite of all that,
-                using a handful of loan characteristics I was still able to achieve 74% accuracy (of "profit" or "loss") using Gradient Boosted Trees.
+                Unfortunately, I came to find that the data provided by Prosper.com didn't contain a unique identifier to connect the loan data
+                with the data on the individuals requesting the loan. So, I only used loan characteristics.
+                To make matters more difficult, most of the loan characteristics were highly correlated. However, in spite of all that,
+                using a handful of loan characteristics I was still able to predict profit or loss with 74% accuracy using gradient
+                boosted trees.
               </p>
               <a href="Loan_Analysis/Final_Report.html" target="_blank" class="center blue">
                   <button>read more here</button>
@@ -164,9 +166,11 @@
             <div class="row">
               <p class="justify">
                 This was a school project which predicts crime in Austin, TX for the year 2016 by zip code.
-                What makes this interesting is that there's only about 20-something zip codes in Austin making the curse of dimensionality
-                a big problem. To overcome this issue, I focused on
-                linear models and spent a lot of time selecting predictors using predictor selection methods.
+                What makes this interesting is that there's less than 30-something (depending on your definition of Austin) zip codes.
+                That means the curse of dimensionality
+                is a big problem when you've gathered 40+ zip code characteristics. Originally I tried tree based models and
+                ensemble methods to automatically perform feature selection. However, I eventually decided to prune
+                the features with subset selection methods and found a linear model (Lasso) to have the most predictive power.
               </p>
               <a href="https://prachu95.github.io/" target="_blank" class="center blue">
                   <button>read more here</button>
@@ -186,10 +190,11 @@
             </div>
             <div class="row">
               <p class="justify">
-                This is one of my favorite projects. While a school project, there were no guidelines and the outcome was meaningful.
-                That is, to start all I had was text data acquired from an API. From there I spent a lot of time using unsupervised
-                learning to understand the data eventually deduce the country of origin of a certain Facebook Confessions Forum
-                post merely by observing it's sentiment.
+                This is one of my favorite projects. To start there was no objective, only text data acquired from a Facebook API.
+                To find a problem of interest I spent a lot of time working with unsupervised learning (primarly principal components analysis)
+                This led to eventually testing some oddly accurate predictive models which were used reductively to uncover 
+                the power of sentiments in deducing the country of origin of Facebook Confessions Forum
+                posts.
               </p>
               <a href="https://github.com/a-orangetree/Facebook_Confessions/blob/master/SocialMedia_FinalPaper.pdf"
               target="_blank" class="center blue">
@@ -211,7 +216,7 @@
             <div class="row">
               <p class="justify">
                 This project started with a grandiose idea: what if I could predict the outcome or spread of college football games?
-                To that end I scraped college football data and prepared to model the data. However, for various reasons I
+                To that end I scraped college football data and prepared to begin modeling. However, for various reasons, I
                 shelved the project indefinitely and left it as a Pandas tutorial. I have yet to return to it.
               </p>
               <a href="https://github.com/a-orangetree/College_Football_Scrape/blob/master/SampleAnalysisUsingPython%26JupyterNotebook.ipynb"
